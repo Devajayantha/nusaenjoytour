@@ -1,1 +1,126 @@
-test
+@extends('customer.master')
+
+@section('index')
+
+	<div id="fh5co-page">
+	<header id="fh5co-header" role="banner">
+		<div class="container">
+			<div class="row">
+				<div class="header-inner">
+					<h1><a href="">Balipenidaview<span>.</span></a></h1>
+					<nav role="navigation">
+						<ul>
+							<li  class="active"><a href="">Home</a></li>
+							<li><a href="">Package</a></li>
+							<li><a href="">Gallery</a></li>
+							<li><a href="">Contact</a></li>
+							<li class="cta"><a href="">Booking</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	@include('customer/template/slide')
+
+	<div id="best-deal">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" data-animate-effect="fadeIn">
+					<h2>Popular Packages That Are Often Ordered</h2>
+					<p>We have many package tour service going Nusa Penida. If you interest , lets contact us and get special cost from us</p>
+				</div>
+				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+
+					<div class="fh5co-property">
+						<figure>
+							<img src="images/gallery/paket/halfday.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<a href="#" class="tag">Recommend</a>
+						</figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="">Half Day Tour West Nusa Penida</a></h3>
+							<div class="price-status">
+		                 	<span class="price"> <span class="per">Start From-</span>Rp.350.000</span>
+		               </div>
+		               <p>Most popular package tour when this tour start from 07.30 until 17.00. Destination will visitting are Kelingking Beach, Broken Beach, Angel Billabong and Crystal Bay </p>
+	            	</div>
+					<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
+						<p><a href="" class="btn btn-primary btn-outline with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+					</div>
+					</div>
+
+
+				</div>
+				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+					<div class="fh5co-property">
+						<figure>
+							<img src="images/gallery/paket/halfday-snor.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<a href="#" class="tag">Recommend</a>
+						</figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="">Half Day & Snorkeling Tour Nusa Penida</a></h3>
+							<div class="price-status">
+		                 	<span class="price"> <span class="per">Start From-</span>Rp.375.000</span>
+		               </div>
+		               <p>Most popular package tour in rute west Nusa Penida include snorkeling in Crystal Bay, Manta Point, and Gamat Bay. Tour starting from 07.00 until 17.00</p>
+	            	</div>
+					<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
+						<p><a href="" class="btn btn-primary btn-outline with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+					</div>
+					</div>
+
+				</div>
+				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+					<div class="fh5co-property">
+						<figure>
+							<img src="images/gallery/paket/2D1N.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<a href="#" class="tag">Recommend</a>
+						</figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="#">Two Days One Night Tour Nusa Penida</a></h3>
+							<div class="price-status">
+		                 	<span class="price"> <span class="per">Start From-</span>Rp.900.000</span>
+		               </div>
+		               <p>Most popular package tour when rute tour day 1 in West and day 2 in East Nusa Penida. This package include hotel for stay overnight. Get special price from us when book overnight.</p>
+	            	</div>
+					<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
+						<p><a href="#" class="btn btn-primary btn-outline with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+					</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="fh5co-section-with-image">
+
+		<img src="images/landscape/photo16.jpg" alt="" class="img-responsive">
+		<div class="fh5co-box animate-box">
+			<h2>Nusa Penida</h2>
+			<p>Nusa Penida is the beauty island part in Bali. Its many beauty place located in Nusa Penida. Many place we found in here there are beach, hill, snorkeling and many more. We Tour Nusa Penida is tour guide service in Nusa Penida. We facilities about tour in many packages when is already provided. Startting tour with us!</p>
+			<p><a href="#" class="btn btn-primary with-arrow">Book Now<i class="icon-arrow-right"></i></a></p>
+		</div>
+
+	</div>
+
+	<div class="fh5co-cta" style="background-image: url(images/slide_4.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
+				<h3>Have Planning to Nusa Penida ?</h3>
+				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Lets Book now! <i class="icon-arrow-right"></i></a></p>
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+
+@endsection
