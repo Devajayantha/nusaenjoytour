@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PagesController::class, 'home'])->name('home');
-// Auth::routes();
+Route::get('/package', [PagesController::class, 'package'])->name('package');
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 
+Route::get('/booking', [BookingController::class, 'booking'])->name('booking');
+// Auth::routes();
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

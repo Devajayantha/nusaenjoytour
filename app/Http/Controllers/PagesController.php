@@ -10,4 +10,14 @@ class PagesController extends Controller
     {
         return view('customer.pages.home');
     }
+
+    public function package()
+    {
+        return view('customer.pages.package');
+    }
+
+    public function gallery()
+    {
+        return view('customer.pages.contact');
+    }
 }

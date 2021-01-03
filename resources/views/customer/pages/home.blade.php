@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="header-inner">
-					<h1><a href="">Balipenidaview<span>.</span></a></h1>
+					<h1><a href="">Penidaenjoytour<span>.</span></a></h1>
 					<nav role="navigation">
 						<ul>
 							<li  class="active"><a href="">Home</a></li>
@@ -98,19 +98,7 @@
 		</div>
 	</div>
 
-
-	<div class="fh5co-section-with-image">
-
-		<img src="images/landscape/photo16.jpg" alt="" class="img-responsive">
-		<div class="fh5co-box animate-box">
-			<h2>Nusa Penida</h2>
-			<p>Nusa Penida is the beauty island part in Bali. Its many beauty place located in Nusa Penida. Many place we found in here there are beach, hill, snorkeling and many more. We Tour Nusa Penida is tour guide service in Nusa Penida. We facilities about tour in many packages when is already provided. Startting tour with us!</p>
-			<p><a href="#" class="btn btn-primary with-arrow">Book Now<i class="icon-arrow-right"></i></a></p>
-		</div>
-
-	</div>
-
-	<div class="fh5co-cta" style="background-image: url(images/slide_4.jpg);">
+	<div class="fh5co-cta" >
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
@@ -120,7 +108,5 @@
 		</div>
 	</div>
 
-
-	</div>
-
+    @include('customer/template/footer')
 @endsection
