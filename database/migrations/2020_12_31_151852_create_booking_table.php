@@ -21,8 +21,7 @@ class CreateBookingTable extends Migration
             $table->string('telp');
             $table->string('address');
             $table->date('departure');
-            $table->integer('id_detpax')->unsigned();
-            $table->foreign('id_detpax')->references('id')->on('detpax');
+            $table->integer('id_detpax');
             $table->integer('amount');
             $table->text('message')->nullable();
             $table->timestamps();

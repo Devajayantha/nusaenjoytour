@@ -8,6 +8,6 @@ class BookingController extends Controller
 {
     public function index()
     {
-        return view('customer.page.booking');
+        return view('customer.pages.booking');
     }
 }

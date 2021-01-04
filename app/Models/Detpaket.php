@@ -9,6 +9,8 @@ class Detpaket extends Model
 {
     use HasFactory;
 
+    protected $table = 'detpaket';
+
     public function paket()
     {
         return $this->hasMany('App\Models\Paket', 'id_paket');

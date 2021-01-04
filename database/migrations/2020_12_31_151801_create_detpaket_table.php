@@ -15,7 +15,7 @@ class CreateDetpaketTable extends Migration
     {
         Schema::create('detpaket', function (Blueprint $table) {
             $table->id();
-            $table->foreign('paket_id')->references('id')->on('paket')->onDelete('cascade');
+            $table->integer('paket_id');
             $table->integer('pax');
             $table->integer('harga');
             $table->timestamps();

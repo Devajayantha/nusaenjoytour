@@ -10,11 +10,11 @@
 					<h1><a href="">Penidaenjoytour<span>.</span></a></h1>
 					<nav role="navigation">
 						<ul>
-							<li  class="active"><a href="">Home</a></li>
-							<li><a href="">Package</a></li>
-							<li><a href="">Gallery</a></li>
-							<li><a href="">Contact</a></li>
-							<li class="cta"><a href="">Booking</a></li>
+							<li  class="active"><a href="{{ route('home') }}">Home</a></li>
+							<li><a href="{{ route('package') }}">Package</a></li>
+							<li><a href="{{ route('gallery') }}">Gallery</a></li>
+							<li><a href="{{ route('contact') }}">Contact</a></li>
+							<li class="cta"><a href="{{ route('booking') }}">Booking</a></li>
 						</ul>
 					</nav>
 				</div>

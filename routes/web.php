@@ -20,6 +20,6 @@ Route::get('/package', [PagesController::class, 'package'])->name('package');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 
-Route::get('/booking', [BookingController::class, 'booking'])->name('booking');
+Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 // Auth::routes();
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
