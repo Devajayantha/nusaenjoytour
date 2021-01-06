@@ -37,7 +37,7 @@
 
 					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('halfdaywest') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 				</div>

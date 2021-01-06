@@ -20,7 +20,12 @@ Route::get('/package', [PagesController::class, 'package'])->name('package');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 
+Route::get('/package/halfday/west', [PagesController::class, 'halfdaywest'])->name('halfdaywest');
+
 Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 Route::get('/ajax-subpac', [BookingController::class, 'ajax'])->name('ajax-subpac');
+
+
+
 // Auth::routes();
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

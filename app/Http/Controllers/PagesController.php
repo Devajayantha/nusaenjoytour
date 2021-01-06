@@ -25,4 +25,9 @@ class PagesController extends Controller
     {
         return view('customer.pages.contact');
     }
+
+    public function halfdaywest()
+    {
+        return view('customer.pages.paket.halfdaywest');
+    }
 }
