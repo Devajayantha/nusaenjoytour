@@ -105,9 +105,9 @@
 							<label for="exampleFormControlSelect1" id="drop_text" >Package</label>
 							<select class="form-control" id="package">
 								<option selected>Choose...</option>
-								{{--  @foreach ($paket as $dp)
-								<option value="{{$dp->id}}">{{$dp->nama_paket}}</option>
-								@endforeach  --}}
+								@foreach ($paket as $dp)
+								    <option value="{{$dp->id}}">{{$dp->nama_paket}}</option>
+								@endforeach
 							</select>
 						</div>
 						<div class="col-md-6 ">
