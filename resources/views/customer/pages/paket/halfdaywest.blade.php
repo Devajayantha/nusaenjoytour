@@ -100,23 +100,10 @@
                         </tbody>
                     </table>
 
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr><th class="tittle-tour-md">Itinerary : </th></tr>
-                        </thead>
-                        <tbody>
-                            <tr><td><strong>06.00</strong> : Hotel Pickup (if include pick & drop)</td></tr>
-                            <tr><td><strong>07.30</strong> : Arrived in Sanur Beach and Get ticket fastboat</td></tr>
-                            <tr><td><strong>08.00</strong> : Fastboat going to Nusa Penida</td></tr>
-                            <tr><td><strong>09.00</strong> : Arrived in Nusa Penida and Tour will starting </td></tr>
-                            <tr><td><strong>10.00</strong> : Visit Broken Beach</td></tr>
-                            <tr><td><strong>11.00</strong> : Visit Angels Billabong</td></tr>
-                            <tr><td><strong>12.30</strong> : Lunch Time</td></tr>
-                            <tr><td><strong>13.30</strong> : Visit Kelingking Beach</td></tr>
-                            <tr><td><strong>15.00</strong> : Last, Visit Crystal Bay Beach</td></tr>
-                            <tr><td><strong>16.00</strong> : Back to Harbour Nusa Penida</td></tr>
-                            <tr><td><strong>17.00</strong> : Tour Ended, Fastboat back to Sanur Beach</td></tr>
-                        </tbody>
+                    <table class="table"> Click for detail activities
+                        <button type="button" class="tittle-tour-m btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                         Itinerary
+                        </button>
                     </table>
                 </div>
                 @include('customer/template/best-seller')
@@ -125,5 +112,42 @@
     </div>
 
     @include('customer/template/footer')
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title " id="exampleModalLabel">Itinerary Of Half Day Tour</h5>
+            </div>
+            <div class="modal-body">
+                <table>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Time : </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>06.00</strong> : Hotel Pickup (if include pick & drop)</td></tr>
+                        <tr><td><strong>07.30</strong> : Arrived in Sanur Beach and Get ticket fastboat</td></tr>
+                        <tr><td><strong>08.00</strong> : Fastboat going to Nusa Penida</td></tr>
+                        <tr><td><strong>09.00</strong> : Arrived in Nusa Penida and Tour will starting </td></tr>
+                        <tr><td><strong>10.00</strong> : Visit Broken Beach</td></tr>
+                        <tr><td><strong>11.00</strong> : Visit Angels Billabong</td></tr>
+                        <tr><td><strong>12.30</strong> : Lunch Time</td></tr>
+                        <tr><td><strong>13.30</strong> : Visit Kelingking Beach</td></tr>
+                        <tr><td><strong>15.00</strong> : Last, Visit Crystal Bay Beach</td></tr>
+                        <tr><td><strong>16.00</strong> : Back to Harbour Nusa Penida</td></tr>
+                        <tr><td><strong>17.00</strong> : Tour Ended, Fastboat back to Sanur Beach</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            </div>
+            </div>
+        </div>
     </div>
 @endsection

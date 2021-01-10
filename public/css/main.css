@@ -1,45 +1,51 @@
-.btn-recommend{
-	margin-bottom: 10px;
+.btn-recommend {
+    margin-bottom: 10px;
 }
-.paket-padding{
-	padding-top: 8px;
-	padding-right: 20px;
-	padding-left: 20px;
-}
-.img-padding-paket{
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
-.border-paket{
-  margin-top: 20px; 
-  box-sizing: content-box;   
-  padding: 30px;  
-  padding-bottom: 50px;
-  border: 1px solid #4CB648;
-}
-.tour-paket{
-	margin-top: 20px;
-}
-.color-tabel-blue{
-	color: blue;
-	font-family: "Varela Round";
-	font-size: 20px;
-}
-.tittle-tour-md{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	color: white;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 1.2;
-	position: block;
-	background-image: linear-gradient(to right, #2193b0 , #6dd5ed);
-	//background-image: linear-gradient(to right, #00c6ff , #0072ff);
-}
-.contact-us{
-	font-family: "Varela Round";
-	color: #2193b0;
-	line-height: 3.2;
 
+.paket-padding {
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.img-padding-paket {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.border-paket {
+    margin-top: 20px;
+    box-sizing: content-box;
+    padding: 30px;
+    padding-bottom: 50px;
+    border: 1px solid #4CB648;
+}
+
+.tour-paket {
+    margin-top: 20px;
+}
+
+.color-tabel-blue {
+    color: blue;
+    font-family: "Varela Round";
+    font-size: 20px;
+}
+
+.tittle-tour-md {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: block;
+    background-image: linear-gradient(to right, rgb(18, 141, 240), #6dd5ed);
+    //background-image: linear-gradient(to right, #00c6ff , #0072ff);
+}
+
+.contact-us {
+    font-family: "Varela Round";
+    color: #2193b0;
+    line-height: 3.2;
 }
