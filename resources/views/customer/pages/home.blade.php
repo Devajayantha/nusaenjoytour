@@ -36,7 +36,7 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/halfday.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/halfday-west.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 							<a href="#" class="tag">Recommend</a>
 						</figure>
 						<div class="fh5co-property-innter">
@@ -57,7 +57,7 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/halfday-snor.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/halfday-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 							<a href="#" class="tag">Recommend</a>
 						</figure>
 						<div class="fh5co-property-innter">
@@ -77,7 +77,7 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/2D1N.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/2d1n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 							<a href="#" class="tag">Recommend</a>
 						</figure>
 						<div class="fh5co-property-innter">

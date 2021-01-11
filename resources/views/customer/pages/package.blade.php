@@ -30,12 +30,11 @@
 				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/halfday-2.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/halfday-west.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>Half Day West Tour</h>
-
-					</div>
+					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="{{ route('halfdaywest') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -46,11 +45,11 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/halfday.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/halfday-east.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>Half Day Tour East</h>
-					</div>
+					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -61,12 +60,11 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/halfday-snor.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/halfday-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>Half Day Snorkeling Tour</h>
-
-					</div>
+					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -76,12 +74,11 @@
 				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/1D1N.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/1d1n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>1D1N Tour</h>
-
-					</div>
+    					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -92,11 +89,11 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/1D1N-snor.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/1d1n-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>1D1N & Snorkeling Tour</h>
-					</div>
+					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -107,12 +104,11 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/2D1N.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/2d1n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>2D1N Tour </h>
-
-					</div>
+					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -123,12 +119,11 @@
 				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/2D1N-snor.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/2d1n-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>2D1N & Snorkeling Tour</h>
-
-					</div>
+    					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -139,12 +134,11 @@
 
 					<div class="fh5co-property">
 						<figure>
-							<img src="images/gallery/paket/3D2N.jpg" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('images/gallery/paket-tour/3d2n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
 							<h3>3D2N Tour</h>
-
-					</div>
+    					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
@@ -162,7 +156,5 @@
 			</div>
 		</div>
 	</div>
-
-
 	@include('customer/template/footer')
 @endsection

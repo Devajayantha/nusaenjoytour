@@ -2,7 +2,7 @@
 	<h2 class="tittle-tour-md">Best Seller</h2>
 	<div class="border-paket">
 		<figure>
-			<img src="{{asset('images/gallery/paket/halfday-2.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+			<img src="{{asset('images/gallery/paket-tour/halfday-west.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 		</figure>
 		<div class="paket-padding text-center">
 			<h3>Half Day West Tour</h>
@@ -14,7 +14,7 @@
 	</div>
 	<div class="border-paket">
 		<figure>
-			<img src="{{asset('images/gallery/paket/halfday-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
+			<img src="{{asset('images/gallery/paket-tour/halfday-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 		</figure>
 		<div class="paket-padding text-center">
 			<h3>Half Day Tour & Snorkeling</h>
