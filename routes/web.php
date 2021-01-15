@@ -25,6 +25,9 @@ Route::get('/package/halfday/east', [PagesController::class, 'halfdayeast'])->na
 Route::get('/package/halfday/snor', [PagesController::class, 'halfdaysnor'])->name('halfdaysnor');
 Route::get('/package/1d1n', [PagesController::class, 'onedayonenight'])->name('onedayonenight');
 Route::get('/package/1d1n/snor', [PagesController::class, 'onedayonenightsnor'])->name('onedayonenightsnor');
+Route::get('/package/2d1n', [PagesController::class, 'twodayonenight'])->name('twodayonenight');
+Route::get('/package/2d1n/snor', [PagesController::class, 'twodayonenightsnor'])->name('twodayonenightsnor');
+Route::get('/package/3d2n', [PagesController::class, 'threedaytwonight'])->name('threedaytwonight');
 
 Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 Route::get('/ajax-subpac', [BookingController::class, 'ajax'])->name('ajax-subpac');

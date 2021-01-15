@@ -51,4 +51,19 @@ class PagesController extends Controller
         return view('customer.pages.paket.1d1n-snor');
     }
 
+    public function twodayonenight()
+    {
+        return view('customer.pages.paket.2d1n');
+    }
+
+    public function twodayonenightsnor()
+    {
+        return view('customer.pages.paket.2d1n-snor');
+    }
+
+    public function threedaytwonight()
+    {
+        return view('customer.pages.paket.3d2n');
+    }
+
 }
