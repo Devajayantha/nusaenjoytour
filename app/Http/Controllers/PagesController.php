@@ -30,4 +30,25 @@ class PagesController extends Controller
     {
         return view('customer.pages.paket.halfdaywest');
     }
+
+    public function halfdayeast()
+    {
+        return view('customer.pages.paket.halfdayeast');
+    }
+
+    public function halfdaysnor()
+    {
+        return view('customer.pages.paket.halfdaysnor');
+    }
+
+    public function onedayonenight()
+    {
+        return view('customer.pages.paket.1d1n');
+    }
+
+    public function onedayonenightsnor()
+    {
+        return view('customer.pages.paket.1d1n-snor');
+    }
+
 }

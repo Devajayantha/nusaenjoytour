@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 animate-box">
-                    <h1><span class="colored">Half</span> Day Snorkeling & Tour</h1>
+                    <h1><span class="colored">1D1N</span> Tour</h1>
                 </div>
             </div>
         </div>
@@ -17,14 +17,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" data-animate-effect="fadeIn">
-                    <h2>Half Day West Package Tour Nusa Penida</h2>
+                    <h2>1D1N Package Tour Nusa Penida</h2>
                 </div>
                 <div>
                     <div class="container">
                         <div class="row text-center text-lg-left">
+
                           <div class="col-lg-6 col-md-6 col-xs-6 img-padding-paket">
                             <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo2.jpg')}}" alt="">
+                              <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo1.jpg')}}" alt="">
                             </a>
                           </div>
                           <div class="col-lg-6 col-md-6 col-xs-6 img-padding-paket">
@@ -34,7 +35,7 @@
                           </div>
                           <div class="col-lg-6 col-md-6 col-xs-6 img-padding-paket">
                             <a href="#" class="d-block mb-4 h-100">
-                                <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo1.jpg')}}" alt="">
+                                <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo3.jpg')}}" alt="">
                             </a>
                           </div>
                           <div class="col-lg-6 col-md-6 col-xs-6 img-padding-paket">
@@ -44,7 +45,12 @@
                           </div>
                           <div class="col-lg-6 col-md-6 col-xs-6 img-padding-paket">
                             <a href="#" class="d-block mb-4 h-100">
-                                <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo9.jpg')}}" alt="">
+                              <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo8.jpg')}}" alt="">
+                            </a>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-xs-6 img-padding-paket">
+                            <a href="#" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="{{asset('images/gallery/edit/photo7.jpg')}}" alt="">
                             </a>
                           </div>
                         </div>
@@ -56,19 +62,12 @@
                             <tr><th class="tittle-tour-md">Tours : </th></tr>
                         </thead>
                         <tbody>
+                            <tr><td>Atuh Beach</td></tr>
+                            <tr><td>Diamond Beach</td></tr>
                             <tr><td>Kelingking Beach</td></tr>
                             <tr><td>Broken Beach</td></tr>
                             <tr><td>Angel Billabong</td></tr>
-                        </tbody>
-                    </table>
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr><th class="tittle-tour-md">Snorkeling : </th></tr>
-                        </thead>
-                        <tbody>
                             <tr><td>Crystal Bay</td></tr>
-                            <tr><td>Gamat Bay</td></tr>
-                            <tr><td>Manta Point</td></tr>
                         </tbody>
                     </table>
                     <div class="desc">
@@ -87,8 +86,7 @@
                                     <tr><td>Our Driver/Guide</td></tr>
                                     <tr><td>Entrance Ticket + Parkir </td></tr>
                                     <tr><td>Private Tour (07.00-18.00)</td></tr>
-                                    <tr><td>Snorkeling Equitment</td></tr>
-                                    <tr><td>Private Boat for Snorkeling</td></tr>
+                                    <tr><td>Hotel and Breakfast</td></tr>
                                  </table>
                             </div>
                             <div id="menu1" class="tab-pane fade">
@@ -107,11 +105,11 @@
                             <tr><th class="tittle-tour-md">Price List : </th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>1. <strong> 2pax </strong> -  IDR Rp.600.000,00/pax</td></tr>
-                            <tr><td>2. <strong> 3pax </strong> -  IDR Rp.500.000,00/pax</td></tr>
-                            <tr><td>3. <strong> 4pax </strong> -  IDR Rp.450.000,00/pax</td></tr>
-                            <tr><td>4. <strong> 5pax </strong> -  IDR Rp.400.000,00/pax</td></tr>
-                            <tr><td>5. <strong> 6pax </strong> -  IDR Rp.375.000,00/pax</td></tr>
+                            <tr><td>1. <strong> 2pax </strong> -  IDR Rp.890.000,00/pax - 1 Room</td></tr>
+                            <tr><td>2. <strong> 3pax </strong> -  IDR Rp.800.000,00/pax - 2 Rooms</td></tr>
+                            <tr><td>3. <strong> 4pax </strong> -  IDR Rp.750.000,00/pax - 2 Rooms</td></tr>
+                            <tr><td>4. <strong> 5pax </strong> -  IDR Rp.720.000,00/pax - 3 Rooms</td></tr>
+                            <tr><td>5. <strong> 6pax </strong> -  IDR Rp.680.000,00/pax - 3 Rooms</td></tr>
                         </tbody>
                     </table>
                     <table class="table"> Click for detail activities
@@ -144,16 +142,17 @@
                     </thead>
 					<tbody>
                         <tr><td><strong>06.00</strong> : Hotel Pickup (if include pick & drop)</td></tr>
-                       <tr><td><strong>07.30</strong> : Arrived in Sanur Beach and Get ticket fastboat</td></tr>
-                       <tr><td><strong>08.00</strong> : Fastboat going to Nusa Penida</td></tr>
-                       <tr><td><strong>09.00</strong> : Arrived in Nusa Penida and Tour will starting </td></tr>
-                       <tr><td><strong>10.00</strong> : Visit Broken Beach</td></tr>
-                       <tr><td><strong>11.00</strong> : Visit Angels Billabong</td></tr>
-                       <tr><td><strong>12.30</strong> : Lunch Time</td></tr>
-                       <tr><td><strong>13.30</strong> : Visit Kelingking Beach</td></tr>
-                       <tr><td><strong>14.45</strong> : Last, Snorkeling starting from Crystal Bay </td></tr>
-                       <tr><td><strong>16.00</strong> : Back to Harbour Nusa Penida</td></tr>
-                       <tr><td><strong>17.00</strong> : Tour Ended, Fastboat back to Sanur Beach</td></tr>
+						<tr><td><strong>07.30</strong> : Arrived in Sanur Beach and Get ticket fastboat</td></tr>
+						<tr><td><strong>08.00</strong> : Fastboat going to Nusa Penida</td></tr>
+						<tr><td><strong>09.00</strong> : Arrived in Nusa Penida and Tour will starting </td></tr>
+						<tr><td><strong>10.00</strong> : Visit Atuh Beach & Diamond Beach</td></tr>
+						<tr><td><strong>12.30</strong> : Lunch Time at Restaurant</td></tr>
+						<tr><td><strong>14.00</strong> : Broken Beach </td></tr>
+						<tr><td><strong>15.00</strong> : Angels Billabong </td></tr>
+						<tr><td><strong>16.30</strong> : Crystal Bay </td></tr>
+						<tr><td><strong>17.30</strong> : Check in Hotel take a rest overnight</td></tr>
+						<tr><td><strong>7.00</strong> : Pick from Hotel</td></tr>
+						<tr><td><strong>7.30</strong> : Back to Sanur using fastboat</td></tr>
                    </tbody>
                 </table>
             </div>

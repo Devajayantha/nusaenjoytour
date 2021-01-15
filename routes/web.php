@@ -21,6 +21,10 @@ Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 
 Route::get('/package/halfday/west', [PagesController::class, 'halfdaywest'])->name('halfdaywest');
+Route::get('/package/halfday/east', [PagesController::class, 'halfdayeast'])->name('halfdayeast');
+Route::get('/package/halfday/snor', [PagesController::class, 'halfdaysnor'])->name('halfdaysnor');
+Route::get('/package/1d1n', [PagesController::class, 'onedayonenight'])->name('onedayonenight');
+Route::get('/package/1d1n/snor', [PagesController::class, 'onedayonenightsnor'])->name('onedayonenightsnor');
 
 Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 Route::get('/ajax-subpac', [BookingController::class, 'ajax'])->name('ajax-subpac');
