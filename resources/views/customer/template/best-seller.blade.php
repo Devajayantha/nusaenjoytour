@@ -5,11 +5,11 @@
 			<img src="{{asset('images/gallery/paket-tour/halfday-west.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 		</figure>
 		<div class="paket-padding text-center">
-			<h3>Half Day West Tour</h>
+			<h3>Half Day West Tour</h3>
 
        </div>
        	<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-			<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+			<p><a href="{{ route('halfdaywest') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 		</div>
 	</div>
 	<div class="border-paket">
@@ -17,11 +17,10 @@
 			<img src="{{asset('images/gallery/paket-tour/halfday-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 		</figure>
 		<div class="paket-padding text-center">
-			<h3>Half Day Tour & Snorkeling</h>
-
+			<h3>Half Day Tour & Snorkeling</h3>
        </div>
        	<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-			<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+			<p><a href="{{ route('halfdaysnor') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 		</div>
 	</div>
 	<h4 class="contact-us">Any questions or requests ? contact us</h4>

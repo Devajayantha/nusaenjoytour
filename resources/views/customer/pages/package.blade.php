@@ -6,7 +6,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="header-inner">
-						<h1><a href="{{route('home')}}">Balipenidaview<span>.</span></a></h1>
+						<h1><a href="{{route('home')}}">Penidaenjoytour<span>.</span></a></h1>
 						<nav role="navigation">
 							<ul>
 								<li><a href="{{route('home')}}">Home</a></li>
@@ -33,7 +33,7 @@
 							<img src="{{ asset('images/gallery/paket-tour/halfday-west.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>Half Day West Tour</h>
+							<h3>Half Day West Tour</h3>
 					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
 							<p><a href="{{ route('halfdaywest') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
@@ -48,10 +48,10 @@
 							<img src="{{ asset('images/gallery/paket-tour/halfday-east.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>Half Day Tour East</h>
+							<h3>Half Day Tour East</h3>
 					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('halfdayeast') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 
@@ -63,10 +63,10 @@
 							<img src="{{ asset('images/gallery/paket-tour/halfday-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>Half Day Snorkeling Tour</h>
+							<h3>Half Day Snorkeling Tour</h3>
 					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('halfdaysnor') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -77,10 +77,10 @@
 							<img src="{{ asset('images/gallery/paket-tour/1d1n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>1D1N Tour</h>
+							<h3>1D1N Tour</h3>
     					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('onedayonenight') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -92,29 +92,27 @@
 							<img src="{{ asset('images/gallery/paket-tour/1d1n-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>1D1N & Snorkeling Tour</h>
+							<h3>1D1N & Snorkeling Tour</h3>
 					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('onedayonenightsnor') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
+                </div>
 
-				</div>
 				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
-
 					<div class="fh5co-property">
 						<figure>
 							<img src="{{ asset('images/gallery/paket-tour/2d1n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>2D1N Tour </h>
+							<h3>2D1N Tour </h3>
 					    </div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('twodayonenight') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 				</div>
-
 
 				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
 					<div class="fh5co-property">
@@ -122,10 +120,10 @@
 							<img src="{{ asset('images/gallery/paket-tour/2d1n-snor.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>2D1N & Snorkeling Tour</h>
+							<h3>2D1N & Snorkeling Tour</h3>
     					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('twodayonenightsnor') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -137,10 +135,10 @@
 							<img src="{{ asset('images/gallery/paket-tour/3d2n.jpg')}}" alt="Free Website Templates FreeHTML5.co" class="img-responsive">
 						</figure>
 						<div class="paket-padding text-center">
-							<h3>3D2N Tour</h>
+							<h3>3D2N Tour</h3>
     					</div>
 						<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
-							<p><a href="" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
+							<p><a href="{{ route('threedaytwonight') }}" class="btn btn-primary with-arrow btn-recommend">Details <i class="icon-arrow-right"></i></a></p>
 						</div>
 					</div>
 				</div>

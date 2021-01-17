@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="header-inner">
-                        <h1><a href="{{route('home')}}">Balipenidaview<span>.</span></a></h1>
+                        <h1><a href="{{route('home')}}">Penidaenjoytour<span>.</span></a></h1>
                         <nav role="navigation">
                             <ul>
                                 <li><a href="{{route('home')}}">Home</a></li>

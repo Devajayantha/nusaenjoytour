@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="header-inner">
-					<h1><a href="{{route('home')}}">Balipenidaview<span>.</span></a></h1>
+					<h1><a href="{{route('home')}}">Penidaenjoytour<span>.</span></a></h1>
 					<nav role="navigation">
 						<ul>
 							<li><a href="{{route('home')}}">Home</a></li>
@@ -40,9 +40,9 @@
 				<h3>Contact Info.</h3>
 				<ul class="contact-info">
 					<li><i class="icon-map"></i>Br. Semaya, Nusa Penida, Klungkung, Bali</li>
-					<li><i class="icon-phone"></i>+62 813-3862-1187</li>
-					<li><i class="icon-envelope"></i><a href="#">info@balipenidaview.com</a></li>
-					<li><i class="icon-globe"></i><a href="#">www.balipenidaview.com</a></li>
+					<li><i class="icon-phone"></i>+62 878-6625-3928</li>
+					<li><i class="icon-envelope"></i><a href="#">info@nusapenidaenjoytour.com</a></li>
+					<li><i class="icon-globe"></i><a href="#">www.nusapenidaenjoytour.com</a></li>
 				</ul>
 			</div>
 			<div class="col-md-8 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">

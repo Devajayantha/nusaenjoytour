@@ -1,8 +1,6 @@
-<!-- WhatsHelp.io widget -->
-
 (function() {
     var options = {
-        whatsapp: "+62 813-3969-7563", // WhatsApp number
+        whatsapp: "+62 878-6625-3928", // WhatsApp number
         call_to_action: "Message us", // Call to action
         position: "left", // Position may be 'right' or 'left'
     };
@@ -17,5 +15,3 @@
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
 })();
-
-<!-- /WhatsHelp.io widget -->
