@@ -38,8 +38,14 @@
 				<h2>Fill Your Information Below</h2>
 			</div>
 			<div class="col-md-6 col-md-offset-3 fh5co-heading animate-box">
-                <form method="post" action="#" id="form">
-					{{csrf_field()}}
+                <form method="post" action="{{ route('form-booking')}}" id="form">
+                    {{csrf_field()}}
+                    @if (session('success'))
+                        <div class="alert alert-success alert-block">
+                            <button type="button" class="close" data-dismiss="alert">×</button>
+                            <strong>{{ session('success') }}</strong>
+                        </div>
+                    @endif
                     <div class="row form-group">
 						<div class="col-md-6">
 							<input type="hidden" name="booking_no" value="{{ rand() }}">
@@ -71,7 +77,7 @@
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label for="subject">No Telepon</label>
-							<input type="text" id="telp" name="telepon" class="form-control" placeholder="Your number telepon">
+							<input type="text" id="telp" name="telp" class="form-control" placeholder="Your number telepon">
 							@if ($errors->has('telepon'))
 							<span class="invalid-feedback">
 								<strong style="color:red;">{{ $errors->first('telepon') }}</strong>
@@ -119,7 +125,7 @@
                     <div class="row form-group">
 						<div class="col-md-12">
 						<label for="total">Total</label>
-							<input type="hidden" id="total" value="" name="total" class="form-control" placeholder="Total payment">
+							<input type="hidden" id="total" value="" name="amount" class="form-control" placeholder="Total payment">
 							<input type="text" id="total-show" value="" name="total-show" class="form-control" placeholder="Total payment">
 							@if ($errors->has('total'))
 							<span class="invalid-feedback">

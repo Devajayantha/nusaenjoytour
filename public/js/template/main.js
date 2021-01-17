@@ -232,12 +232,9 @@
 	$('#pax').on('change',function(e){
 		var i = $("#pax").prop('selectedIndex');
 		var pax=paket[i]
-
 		total_harga = (pax.pax * pax.harga);
-
 		var num = 'Rp. ' + total_harga.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
-
-		$("#total").val(pax.jumlah_pax*pax.harga)
+		$("#total").val(total_harga)
 		$("#total-show").val(num)
 	})
 

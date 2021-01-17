@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Booking;
 use App\Models\Detpaket;
 use App\Models\Paket;
 use Illuminate\Http\Request;
@@ -23,5 +24,13 @@ class BookingController extends Controller
         $paxdet = Detpaket::where('paket_id', '=', $pac_id)->get();
 
         return response()->json($paxdet);
+    }
+
+    public function booking(Request $request)
+    {
+        // dd($request->all());
+        $input = new Booking($request->all());
+        $input->save();
+        return redirect()->back()->with('success','berhasil disimpan datanya');
     }
 }

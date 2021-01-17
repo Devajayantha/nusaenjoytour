@@ -30,6 +30,7 @@ Route::get('/package/2d1n/snor', [PagesController::class, 'twodayonenightsnor'])
 Route::get('/package/3d2n', [PagesController::class, 'threedaytwonight'])->name('threedaytwonight');
 
 Route::get('/booking', [BookingController::class, 'index'])->name('booking');
+Route::post('/booking', [BookingController::class, 'booking'])->name('form-booking');
 Route::get('/ajax-subpac', [BookingController::class, 'ajax'])->name('ajax-subpac');
 
 
