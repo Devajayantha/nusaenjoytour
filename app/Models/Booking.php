@@ -21,4 +21,9 @@ class Booking extends Model
         'amount',
         'message',
     ];
+
+    public function detPaket()
+    {
+        return $this->belongsTo(Detpaket::class, 'pax', 'id');
+    }
 }

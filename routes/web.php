@@ -35,6 +35,9 @@ Route::post('/booking', [BookingController::class, 'booking'])->name('form-booki
 Route::get('/ajax-subpac', [BookingController::class, 'ajax'])->name('ajax-subpac');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware(['auth:sanctum', 'verified']);
+Route::get('/dashboard/comment', [DashboardController::class, 'comment'])->name('dashboard.comment')->middleware(['auth:sanctum', 'verified']);
+Route::put('/dashboard/comment/verify/{comment:id}', [DashboardController::class, 'verify'])->name('dashboard.comment.verify')->middleware(['auth:sanctum', 'verified']);
+Route::put('/dashboard/comment/unferify/{comment:id}', [DashboardController::class, 'unverify'])->name('dashboard.comment.unverify')->middleware(['auth:sanctum', 'verified']);
 
 
 

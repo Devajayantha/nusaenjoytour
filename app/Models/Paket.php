@@ -13,6 +13,6 @@ class Paket extends Model
 
     public function detPaket()
     {
-        return $this->belongsTo('App\Models\Detpaket', 'id_paket', 'id');
+        return $this->hasMany(Detpaket::class, 'paket_id', 'id');
     }
 }
