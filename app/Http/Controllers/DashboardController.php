@@ -18,7 +18,7 @@ class DashboardController extends Controller
 
     public function comment()
     {
-        $comments = Comment::all();
+        $comments = Comment::latest('id')->get();
 
         return view('admin.pages.comment', compact('comments'));
     }
@@ -35,6 +35,14 @@ class DashboardController extends Controller
         $comment->update(['status' => '0']);
 
         return redirect()->route('dashboard.comment');
+    }
+
+    public function create(Request $request)
+    {
+        $comment = new Comment($request->all());
+        $comment->save();
+
+        return redirect()->route('home');
     }
 
 }

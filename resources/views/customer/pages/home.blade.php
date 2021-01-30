@@ -98,6 +98,33 @@
 		</div>
 	</div>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="..." alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
 	<div class="fh5co-cta" >
 		<div class="overlay"></div>
 		<div class="container">
@@ -106,7 +133,51 @@
 				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Lets Book now! <i class="icon-arrow-right"></i></a></p>
 			</div>
 		</div>
-	</div>
+    </div>
+
+    <div class="fh5co-contact animate-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Add Review</h3>
+                </div>
+                <div class="col-md-8 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+                    <div class="row">
+                        <form method="post" action="{{ route('dashboard.comment.create') }}" >
+                            @csrf
+                            @method('post')
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Full Name" type="text" name="name" required>
+                                    @if ($errors->has('name'))
+                                    <span class="invalid-feedback">
+                                        <strong style="color:red;">{{ $errors->first('name') }}</strong>
+                                    </span>
+                                    @endif
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="" cols="30" rows="7" placeholder="Message" required></textarea>
+                                    @if ($errors->has('message'))
+                                    <span class="invalid-feedback">
+                                        <strong style="color:red;">{{ $errors->first('message') }}</strong>
+                                    </span>
+                                    @endif
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <button type="submit" value="submit" class="btn btn-primary">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     @include('customer/template/footer')
 @endsection

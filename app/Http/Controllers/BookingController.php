@@ -20,7 +20,6 @@ class BookingController extends Controller
     public function ajax(Request $request)
     {
         $pac_id = $request->pac_id;
-        // $pac_id = Input::get('pac_id');
         $paxdet = Detpaket::where('paket_id', '=', $pac_id)->get();
 
         return response()->json($paxdet);
@@ -28,9 +27,9 @@ class BookingController extends Controller
 
     public function booking(Request $request)
     {
-        // dd($request->all());
         $input = new Booking($request->all());
         $input->save();
+
         return redirect()->back()->with('success','berhasil disimpan datanya');
     }
 }
