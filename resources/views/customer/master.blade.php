@@ -40,13 +40,8 @@
 	<link rel="stylesheet" href="{{asset('css/template/style.css')}}">
 	<link rel="stylesheet" href="{{asset('css/template/style.css')}}">
 	<link rel="stylesheet" href="{{asset('css/main.css')}}">
-
-	<!-- Modernizr JS -->
+    @yield('custom-css')
 	<script src="{{asset('js/template/modernizr-2.6.2.min.js')}}"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 
 	</head>
 	<body>
@@ -54,24 +49,13 @@
 	        @yield('index')
 	    </div>
 
-	<!-- jQuery -->
-
-	<script src="{{asset('js/template/jquery.min.js')}}"></script>
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-	<!-- jQuery Easing -->
-	<script src="{{asset('js/template/jquery.easing.1.3.js')}}"></script>
-	<!-- Bootstrap -->
-	<script src="{{asset('js/template/bootstrap.min.js')}}"></script>
-	<!-- Waypoints -->
-	<script src="{{asset('js/template/jquery.waypoints.min.js')}}"></script>
-	<!-- Flexslider -->
-	<script src="{{asset('js/template/jquery.flexslider-min.js')}}"></script>
-
-	<!-- MAIN JS -->
-	<script src="{{asset('js/template/main.js')}}"></script>
-	<script src="{{asset('js/template/chat.js')}}"></script>
-
-
+        <script src="{{asset('js/template/jquery.min.js')}}"></script>
+        <script src="{{asset('js/template/jquery.easing.1.3.js')}}"></script>
+        <script src="{{asset('js/template/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/template/jquery.waypoints.min.js')}}"></script>
+        <script src="{{asset('js/template/jquery.flexslider-min.js')}}"></script>
+        <script src="{{asset('js/template/main.js')}}"></script>
+        <script src="{{asset('js/template/chat.js')}}"></script>
 	</body>
 </html>
 
