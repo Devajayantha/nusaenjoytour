@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
     public function home()
     {
-        return view('customer.pages.home');
+        $comments = Comment::where('status','1')->latest('id')->paginate(2);
+
+        return view('customer.pages.home',compact('comments'));
     }
 
     public function package()

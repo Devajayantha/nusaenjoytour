@@ -47,7 +47,7 @@
 			</div>
 			<div class="col-md-8 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
 				<div class="row">
-					<form method="post" action="/contact">
+					<form method="post" action="#">
 						{{csrf_field()}}
 						<div class="col-md-6">
 							<div class="form-group">

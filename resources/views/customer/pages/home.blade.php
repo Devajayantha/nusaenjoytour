@@ -104,20 +104,25 @@
 
     <div class="fh5co-contact animate-box">
         <div class="container">
-            <h3>recent reviews</h3>
+            <h3>Recent Reviews</h3>
             <div class="review-block">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
-                        <div class="review-block-name"><a href="#">nktailor</a></div>
-                        <div class="review-block-date">January 29, 2016<br/>1 day ago</div>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="review-block-title">this was nice in buy</div>
-                        <div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
-                    </div>
+                @foreach ($comments as $comment)
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="{{ Avatar::create($comment->name)->setDimension(60, 60) }}" class="img-rounded">
+                            <div class="review-block-date"><br>{{ $comment->created_at->format('F j, Y') }}</div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="review-block-title">{{ $comment->name }}t</div>
+                            <div class="review-block-description">{{ $comment->message }}</div>
+                        </div>
+                    </div><hr>
+                @endforeach
+                <div class="d-flex justify-content-center">
+                    {{ $comments->links() }}
                 </div>
             </div>
+
         </div>
     </div>
 
