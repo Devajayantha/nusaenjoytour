@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Booking;
 use App\Models\Comment;
+use App\Models\Detpaket;
+use App\Models\Paket;
 use COM;
 use Illuminate\Http\Request;
 
@@ -11,7 +13,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        $bookings = Booking::with(['detPaket.paket'])->get();
+        $bookings = Booking::with(['detPaket.paket'])->latest('id')->get();
 
         return view('admin.pages.index', compact('bookings'));
     }
@@ -43,6 +45,13 @@ class DashboardController extends Controller
         $comment->save();
 
         return redirect()->route('home');
+    }
+
+    public function package()
+    {
+        $packages = Detpaket::with('paket');
+
+        return view('admin.pages.package', compact('packages'));
     }
 
 }

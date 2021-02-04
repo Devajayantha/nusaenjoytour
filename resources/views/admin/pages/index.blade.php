@@ -16,6 +16,12 @@
           <span>Comment</span>
         </a>
       </li>
+      {{-- <li class="nav-item">
+        <a class="nav-link" href="{{ route('dashboard.package') }}">
+          <i class="fas fa-fw fa-edit"></i>
+          <span>Package</span>
+        </a>
+      </li> --}}
     </ul>
 
     <div id="content-wrapper">

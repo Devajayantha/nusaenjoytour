@@ -39,7 +39,7 @@ Route::get('/dashboard/comment', [DashboardController::class, 'comment'])->name(
 Route::put('/dashboard/comment/verify/{comment:id}', [DashboardController::class, 'verify'])->name('dashboard.comment.verify')->middleware(['auth:sanctum', 'verified']);
 Route::put('/dashboard/comment/unferify/{comment:id}', [DashboardController::class, 'unverify'])->name('dashboard.comment.unverify')->middleware(['auth:sanctum', 'verified']);
 Route::post('/dashboard/comment/create', [DashboardController::class, 'create'])->name('dashboard.comment.create');
-
+// Route::get('/dashboard/package', [DashboardController::class, 'package'])->name('dashboard.package')->middleware(['auth:sanctum', 'verified']);
 
 
 // Auth::routes();
