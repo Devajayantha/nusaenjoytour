@@ -46,7 +46,7 @@
 						<div class="fh5co-property-innter">
 							<h3><a href="">Half Day Tour West Nusa Penida</a></h3>
 							<div class="price-status">
-		                 	<span class="price"> <span class="per">Start From-</span>Rp.350.000</span>
+		                 	<span class="price"> <span class="per">Start From-</span>Rp.300.000</span>
 		               </div>
 		               <p>Most popular package tour when this tour start from 07.30 until 17.00. Destination will visitting are Kelingking Beach, Broken Beach, Angel Billabong and Crystal Bay </p>
 	            	</div>

@@ -17,18 +17,18 @@ class DetPaketTableSeeder extends Seeder
         DetPaket::insert([
 
             // west
-            ['paket_id' => 1, 'pax' => 2, 'harga' => 550000],
-            ['paket_id' => 1, 'pax' => 3, 'harga' => 480000],
-            ['paket_id' => 1, 'pax' => 4, 'harga' => 450000],
-            ['paket_id' => 1, 'pax' => 5, 'harga' => 400000],
-            ['paket_id' => 1, 'pax' => 6, 'harga' => 360000],
+            ['paket_id' => 1, 'pax' => 2, 'harga' => 500000],
+            ['paket_id' => 1, 'pax' => 3, 'harga' => 400000],
+            ['paket_id' => 1, 'pax' => 4, 'harga' => 380000],
+            ['paket_id' => 1, 'pax' => 5, 'harga' => 350000],
+            ['paket_id' => 1, 'pax' => 6, 'harga' => 300000],
 
             // east
-            ['paket_id' => 2, 'pax' => 2, 'harga' => 600000],
-            ['paket_id' => 2, 'pax' => 3, 'harga' => 500000],
-            ['paket_id' => 2, 'pax' => 4, 'harga' => 450000],
-            ['paket_id' => 2, 'pax' => 5, 'harga' => 400000],
-            ['paket_id' => 2, 'pax' => 6, 'harga' => 375000],
+            ['paket_id' => 1, 'pax' => 2, 'harga' => 500000],
+            ['paket_id' => 1, 'pax' => 3, 'harga' => 400000],
+            ['paket_id' => 1, 'pax' => 4, 'harga' => 380000],
+            ['paket_id' => 1, 'pax' => 5, 'harga' => 350000],
+            ['paket_id' => 1, 'pax' => 6, 'harga' => 300000],
 
             // snork
             ['paket_id' => 3, 'pax' => 2, 'harga' => 760000],

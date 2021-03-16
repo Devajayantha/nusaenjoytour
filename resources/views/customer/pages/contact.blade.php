@@ -40,7 +40,7 @@
 				<h3>Contact Info.</h3>
 				<ul class="contact-info">
 					<li><i class="icon-map"></i>Br. Semaya, Nusa Penida, Klungkung, Bali</li>
-					<li><i class="icon-phone"></i>+62 878-6625-3928</li>
+					<li><i class="icon-phone"></i>+62 812-3942-1029</li>
 					<li><i class="icon-envelope"></i><a href="#">info@nusapenidaenjoytour.com</a></li>
 					<li><i class="icon-globe"></i><a href="#">www.nusapenidaenjoytour.com</a></li>
 				</ul>

@@ -92,11 +92,11 @@
                             <tr><th class="tittle-tour-md">Price List : </th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>1. <strong> 2pax </strong> -  IDR Rp.550.000,00/pax</td></tr>
-                            <tr><td>2. <strong> 3pax </strong> -  IDR Rp.480.000,00/pax</td></tr>
-                            <tr><td>3. <strong> 4pax </strong> -  IDR Rp.450.000,00/pax</td></tr>
-                            <tr><td>4. <strong> 5pax </strong> -  IDR Rp.400.000,00/pax</td></tr>
-                            <tr><td>5. <strong> 6pax </strong> -  IDR Rp.360.000,00/pax</td></tr>
+                            <tr><td>1. <strong> 2pax </strong> -  IDR Rp.500.000,00/pax</td></tr>
+                            <tr><td>2. <strong> 3pax </strong> -  IDR Rp.400.000,00/pax</td></tr>
+                            <tr><td>3. <strong> 4pax </strong> -  IDR Rp.380.000,00/pax</td></tr>
+                            <tr><td>4. <strong> 5pax </strong> -  IDR Rp.350.000,00/pax</td></tr>
+                            <tr><td>5. <strong> 6pax </strong> -  IDR Rp.300.000,00/pax</td></tr>
                         </tbody>
                     </table>
 

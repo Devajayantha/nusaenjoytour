@@ -1,6 +1,6 @@
 (function() {
     var options = {
-        whatsapp: "+62 878-6625-3928", // WhatsApp number
+        whatsapp: "+62 812-3942-1029", // WhatsApp number
         call_to_action: "Message us", // Call to action
         position: "left", // Position may be 'right' or 'left'
     };
